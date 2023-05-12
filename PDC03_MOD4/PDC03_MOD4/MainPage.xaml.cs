@@ -24,5 +24,20 @@ namespace PDC03_MOD4
         {
             await Navigation.PushAsync(new activity02());
         }
+
+        private async void Openactivity03(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new activity03());
+        }
+
+        private async void Openactivity04(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new activity04());
+        }
+
+        private async void Openactivity05(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new activity05());
+        }
     }
 }

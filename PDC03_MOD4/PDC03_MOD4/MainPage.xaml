@@ -6,5 +6,8 @@
     <StackLayout>
         <Button Text="Activity01 Mod4" Clicked="Openactivity01"></Button>
         <Button Text="Activity02 Mod4" Clicked="Openactivity02"></Button>
+        <Button Text="Activity03 Mod4" Clicked="Openactivity03"></Button>
+        <Button Text="Activity04 Mod4" Clicked="Openactivity04"></Button>
+        <Button Text="Activity05 Mod4" Clicked="Openactivity05"></Button>
     </StackLayout>
 </ContentPage>
